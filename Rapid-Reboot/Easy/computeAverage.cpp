@@ -4,7 +4,7 @@
 using namespace std;
 
 double computeAverage(const vector<int>& values) {
-    int total = accumulate(values.begin(), values.end(), 0);
+    int total = accumulate(values.begin(), values.end(), 0); // accumulate function computes the sum of all elements in the vector.
     return total / values.size();
 }
 
